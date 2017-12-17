@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "outFile": "out.js",
+        "target": "es5"
+    },
+    "include": [
+        "**/*"
+    ]
+}
