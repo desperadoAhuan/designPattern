@@ -1,12 +1,12 @@
 module dp.decorate {
-    export class Person {
+    export class Person implements Dress{
         private _name: string;
 
         constructor(name: string) {
             this._name = name;
         }
 
-        public show(){
+        public dress(){
             console.log("end")
         }
     }

@@ -1,5 +1,5 @@
 module dp.decorate {
-    export interface IFinery{
+    export interface Dress{
         dress():void;
     }
 }
