@@ -1,0 +1,3 @@
+- Subject类，定义了RealSubject和Proxy的公共接口，这样就在任何使用RealSubject的地方都可以使用Proxy。
+- ReaSubject类，定义了Proxy使用的真实实体。
+- Proxy类，保存一个引用使得代理可以访问实体，并提供一个与Subject的接口相同的接口，这样代理就可以用来替代实体。
